@@ -1,34 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
 
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.teste.d2p" 
-        versionCode = "1"
-        version   = "1.0.0">
+<name>Hello World</name>
 
-    <name>Nome do APP</name>
+<description>isso</description>
 
-    <description>
-	vsf
-    </description>
-    <author href="http://www.seusite.com">
-        Nome Autor
-    </author>   
-    <preference name="permissions" value="none" />
-    <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
-    <icon src="icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="icon.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="icon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-    <icon src="icon.png"     gap:platform="blackberry" />
-    <icon src="icon.png"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="icon.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="icon.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="icon.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="icon.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="icon.png"          gap:platform="webos" />
-    <icon src="icon.png"  gap:platform="winphone" />
-    <icon src="icon.png" gap:platform="winphone"   gap:role="background" />
+<author email="support@phonegap.com" href="http://phonegap.com"> PhoneGap Team</author>
+
+<content src="index.html"/>
+
+<access origin="*"/>
+
+<platform name="android">
+<!-- a preference specific to android only here -->
+</platform>
+
+<feature name="Device">
+<param name="android-package"
+value="org.apache.cordova.device.Device"
+/>
+</feature>
+
+<!-- Core/Common Preferences -->
+
+
+<preference name="Fullscreen" value="true"/> 
+
+<preference name="DisallowOverscroll" value="true"/> 
+
+<preference name="Orientation" value="landscape"/>
+
+<preference name="HideKeyboardFormAccessoryBar" value="false"/>
+
+<preference name="BackgroundColor" value="0xff0000ff"/>
+
+
+<!--iOS Preferences-->
+
+<preference name="EnableViewportScale" value="true"/> 
+
+<preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+
+<preference name="MediaPlaybackRequiresUserAction" value="true"/>
+
+<preference name="AllowInlineMediaPlayback" value="true"/>
+
+<preference name="BackupWebStorage" value="false"/>
+
+<preference name="SuppressesIncrementalRendering" value="true"/>
+
+<preference name="GapBetweenPages" value="0"/>
+
+<preference name="PageLength" value="0"/>
+
+<preference name="PaginationBreakingMode" value="page"/>
+
+<preference name="PaginationMode" value="unpaginated"/>
+
+<preference name="UIWebViewDecelerationSpeed" value="fast"/>
+
+
+<!--Android Preferences-->
+
+<preference name="KeepRunning" value="false"/> 
+
+<preference name="LoadUrlTimeoutValue" value="10000"/>
+
+<preference name="SplashScreen" value="mySplash"/>
+
+<preference name="SplashScreenDelay" value="10000"/>
+
+<preference name="InAppBrowserStorageEnabled" value="true"/>
+
+<preference name="LoadingDialog" value="My Title,My Message"/>
+
+<preference name="LoadingPageDialog" value="My Title,My Message"/>
+
+<preference name="ErrorUrl" value="myErrorPage.html"/>
+
+<preference name="ShowTitle" value="true"/>
+
+<preference name="LogLevel" value="VERBOSE"/>
+
+<preference name="SetFullscreen" value="false"/>
+
+<preference name="AndroidLaunchMode" value="singleTop"/>
+
+
+
+
+<icon src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi"> </icon>
+
+<splash src="res/ios/icon.png" platform="ios" width="57" height="57" density="mdpi"> </splash>
+
 </widget>
