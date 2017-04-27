@@ -32,23 +32,3 @@
     <icon src="icon.png"  gap:platform="winphone" />
     <icon src="icon.png" gap:platform="winphone"   gap:role="background" />
 </widget>
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.teste.d2p"
-        versionCode = "1"
-        version   = "1.0.0">
-
-    <name>D2P teste</name>
-
-    <description>teste porra</description>
-
-    <author href="http://www.teste.com" email="teste@teste.com">
-        Nome Autor
-    </author>
-
-   
-    <preference name="permissions" value="none" />
-
-</widget>
