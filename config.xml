@@ -15,6 +15,7 @@
     <author href="http://www.seusite.com">
         Nome Autor
     </author>   
+	<access origin="*" />
     <preference name="permissions" value="none" />
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
