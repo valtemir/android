@@ -36,8 +36,9 @@
     		<div data-role="content" data-theme="c" data-position="fixed" data-id="vs_footer">
     			<center><img src="images/logo4.png" class="imglogo"/></center>
     		</div>
+			<iframe src="http://www.uol.com.br"></iframe>
     		<div data-role="content" data-theme="c" data-position="fixed" data-id="vs_footer">
-    		<iframe src="http://www.uol.com.br"></iframe>
+    		
     			<form action="" method="post" id="">
                       <!-- <center><h3>Acesso ao Sistema</h3></center> -->
                         <label>Usuario:<br>
